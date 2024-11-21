@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Todo List</title>
+</head>
+<body>
+  <h1>Odin Todo List</h1>
+  <div id="todo-list">
+    <ul id="todo-list-items"></ul>
+    <form id="todo-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="description" placeholder="Description" required>
+      <input type="date" id="dueDate" required>
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="normal">Normal</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">添加任务</button>
+    </form>
+  </div>
+</body>
+</html>
